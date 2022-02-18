@@ -14,6 +14,10 @@
 		84FF2C0327BEA25A00B0FC87 /* CoreDataToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84FF2C0127BEA25A00B0FC87 /* CoreDataToDoList.xcdatamodeld */; };
 		84FF2C0527BEA26300B0FC87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FF2C0427BEA26300B0FC87 /* Assets.xcassets */; };
 		84FF2C0827BEA26300B0FC87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FF2C0627BEA26300B0FC87 /* LaunchScreen.storyboard */; };
+		84FF2C1427BEB7D400B0FC87 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF2C1327BEB7D400B0FC87 /* MainTableViewCell.swift */; };
+		84FF2C1627BEBBC900B0FC87 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF2C1527BEBBC900B0FC87 /* Extensions.swift */; };
+		84FF2C1927BEC2C000B0FC87 /* ToDoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF2C1727BEC2C000B0FC87 /* ToDoListItem+CoreDataClass.swift */; };
+		84FF2C1A27BEC2C000B0FC87 /* ToDoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF2C1827BEC2C000B0FC87 /* ToDoListItem+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		84FF2C0427BEA26300B0FC87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FF2C0727BEA26300B0FC87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FF2C0927BEA26300B0FC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FF2C1327BEB7D400B0FC87 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		84FF2C1527BEBBC900B0FC87 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		84FF2C1727BEC2C000B0FC87 /* ToDoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84FF2C1827BEC2C000B0FC87 /* ToDoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 		84FF2BEC27BEA25A00B0FC87 = {
 			isa = PBXGroup;
 			children = (
+				84FF2C1727BEC2C000B0FC87 /* ToDoListItem+CoreDataClass.swift */,
+				84FF2C1827BEC2C000B0FC87 /* ToDoListItem+CoreDataProperties.swift */,
 				84FF2BF727BEA25A00B0FC87 /* CoreDataToDoList */,
 				84FF2BF627BEA25A00B0FC87 /* Products */,
 			);
@@ -61,6 +71,8 @@
 				84FF2BF827BEA25A00B0FC87 /* AppDelegate.swift */,
 				84FF2BFA27BEA25A00B0FC87 /* SceneDelegate.swift */,
 				84FF2BFC27BEA25A00B0FC87 /* ViewController.swift */,
+				84FF2C1327BEB7D400B0FC87 /* MainTableViewCell.swift */,
+				84FF2C1527BEBBC900B0FC87 /* Extensions.swift */,
 				84FF2BFE27BEA25A00B0FC87 /* Main.storyboard */,
 				84FF2C0427BEA26300B0FC87 /* Assets.xcassets */,
 				84FF2C0627BEA26300B0FC87 /* LaunchScreen.storyboard */,
@@ -141,9 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FF2C1927BEC2C000B0FC87 /* ToDoListItem+CoreDataClass.swift in Sources */,
 				84FF2BFD27BEA25A00B0FC87 /* ViewController.swift in Sources */,
 				84FF2BF927BEA25A00B0FC87 /* AppDelegate.swift in Sources */,
 				84FF2C0327BEA25A00B0FC87 /* CoreDataToDoList.xcdatamodeld in Sources */,
+				84FF2C1A27BEC2C000B0FC87 /* ToDoListItem+CoreDataProperties.swift in Sources */,
+				84FF2C1627BEBBC900B0FC87 /* Extensions.swift in Sources */,
+				84FF2C1427BEB7D400B0FC87 /* MainTableViewCell.swift in Sources */,
 				84FF2BFB27BEA25A00B0FC87 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
